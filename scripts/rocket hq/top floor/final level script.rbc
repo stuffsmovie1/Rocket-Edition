@@ -94,11 +94,11 @@ waitmovement 0x0
 pause 0x15
 msgbox @bossTalk12.5 0x6
 waitmovement 0x0
-sound 0x36 // throw Poké ball sound
+sound 0x36 // throw Pokï¿½ ball sound
 movesprite2 _POKEBALL 0xD 0x6
 showsprite _POKEBALL
 pause 0x5
-sound 0xF // Poké ball open
+sound 0xF // Pokï¿½ ball open
 fadescreen 0x2
 movesprite _POKEBALL 0x11 0x18
 showsprite _NIDOKING
@@ -265,52 +265,65 @@ end
 #raw 0xFE
 
 #org @bossTalk2
-= You bunch of incompetent fools!\nGiratina take you all!
+= You bunch of incompetent fools!\nGiratina take you all!
+
 
 #org @bossTalk3
-= This[.]\c\h08ó child[.]\pHe wiped out every single one of\nyou, found his way to the\lPresident's room[.]\pAnd ran off with the Master Ball\nprototype.
+= This[.]\c\h08ï¿½ child[.]\pHe wiped out every single one of\nyou, found his way to the\lPresident's room[.]\pAnd ran off with the Master Ball\nprototype.
+
 
 #org @bossTalk4
-= In front of your eyes, ladies\nand gentlemen!\pWhat do you have to say for\nyourselves?\lWhat?!
+= In front of your eyes, ladies\nand gentlemen!\pWhat do you have to say for\nyourselves?\lWhat?!
+
 
 #org @bossWalk2
 #raw STEP_L
 #raw 0xFE
 
-#org @bossTalk5
-= A public humiliation of this\nscale[.]\pCan anyone ever look at Team\nRocket the same way again..?
+#org @bossTalk5
+
+= A public humiliation of this\nscale[.]\pCan anyone ever look at Team\nRocket the same way again..?
+
 
 #org @bossWalk3
 #raw STEP_R
 #raw 0xFE
 
 #org @bossTalk6
-= Tell me, you morons!\pAre we the mightiest gang of\nmobsters in this region?\pOr a bunch of little girls?!
+= Tell me, you morons!\pAre we the mightiest gang of\nmobsters in this region?\pOr a bunch of weaklingts?!
+
 
 #org @ronnieTalk1
-= Ronnie: The mightiest gangsters\nin Kanto, that's what we are!\pAye, aye, Boss!\pWe'll show that little kid\nnext time, you betcha!
+= Ronnie: The mightiest gangsters\nin Kanto, that's what we are!\pAye, aye, Boss!\pWe'll show that little kid\nnext time, you betcha!
+
 
 #org @stepRightFast
 #raw STEP_R2
 #raw 0xFE
 
 #org @bossTalk7
-= Giovanni: SILENCE!
+= Giovanni: SILENCE!
+
 
 #org @bossTalk8
-= Giovanni: [.]\c\h08ó\nYou.
+= Giovanni: [.]\c\h08ï¿½\nYou.
 
 #org @bossTalk9
-= You worthless, simple-minded\nlittle Bad Egg[.]\pI've given you more warning\nthan you deserve, Grunt[.]\pYet you seem to be relentless\nin your incompetence[.]
+= You worthless, simple-minded\nlittle Bad Egg[.]\pI've given you more warning\nthan you deserve, Grunt[.]\pYet you seem to be relentless\nin your incompetence[.]
+
 
 #org @bossTalk10
-= To take a Card Key that wasn't\neven yours to use[.]\pThen drop it right in front of\nthe child so he could ruin our\lplans as thoroughly as possible!
+= To take a Card Key that wasn't\neven yours to use[.]\pThen drop it right in front of\nthe child so he could ruin our\lplans as thoroughly as possible!
 
-#org @bossTalk11
-= Imbecile, moron!\pWere it not for you, that twerp\nmight have never reached us, and\lthe Master Ball would be in our\lhands right now!\pDo you understand?!
+
+#org @bossTalk11
+
+= Imbecile, moron!\pWere it not for you, that twerp\nmight have never reached us, and\lthe Master Ball would be in our\lhands right now!\pDo you understand?!
+
 
 #org @ronnieTalk2
-= Ronnie: N-no Boss[.]\c\h08ó\nIt wasn't like that, see--
+= Ronnie: N-no Boss[.]\c\h08ï¿½\nIt wasn't like that, see--
+
 
 #org @stepRFast
 #raw 0x2C
@@ -320,7 +333,8 @@ end
 = Giovanni: ENOUGH!
 
 #org @bossTalk12.5
-= That's enough!\p[.]\pI have had[.]\c\h08ó\nENOUGH!
+= That's enough!\p[.]\pI have had[.]\c\h08ï¿½\nENOUGH!
+
 
 #org @nidoEntry
 #raw 0x28
@@ -331,7 +345,7 @@ end
 #raw 0xFE
 
 #org @bossTalk13
-= Giovanni: Nidoking!\c\h08ó\nPrepare for attack!
+= Giovanni: Nidoking!\c\h08ï¿½\nPrepare for attack!
 
 #org @nidoStep
 #raw STEP_R2
@@ -345,10 +359,12 @@ end
 #raw 0XFE
 
 #org @bossTalk14
-= Giovanni: Leave us!\c\h08ó\nLeave us, you worthless scum!\pYou're not worthy of the 'R'\nthat's printed on your chest!\pIf I ever see your face again,\nI'll grind it into Berry Powder!\pMark my words, I will!\pBegone!
+= Giovanni: Leave us!\c\h08ï¿½\nLeave us, you worthless scum!\pYou're not worthy of the 'R'\nthat's printed on your chest!\pIf I ever see your face again,\nI'll grind it into Berry Powder!\pMark my words, I will!\pBegone!
+
 
 #org @ronnieTalk3
-= Ronnie: [.]
+= Ronnie: [.]
+
 
 #org @ronnieLeave1
 #raw STEP_U2
@@ -376,30 +392,37 @@ end
 #raw 0xFE
 
 #org @bossTalk15
-= Giovanni: [.]\c\h08ó\nHahahaha[.]
+= Giovanni: [.]\c\h08ï¿½\nHahahaha[.]
+
 
 #org @bossWalk4
 #raw STEP_R
 #raw STEP_R
 #raw 0xFE
 
-#org @bossTalk16
-= Giovanni: [.]\c\h08ó\nHahahahaha!
+#org @bossTalk16
+
+= Giovanni: [.]\c\h08ï¿½\nHahahahaha!
+
 
 #org @bossTalk17
-= No matter.\c\h08ó\nNo matter, boys and girls.\pBecause[.]\c\h08ó\nOne thing is for sure[.]\pThis Red twerp[.]\pHe has messed with us for the very\nlast time!
+= No matter.\c\h08ï¿½\nNo matter, boys and girls.\pBecause[.]\c\h08ï¿½\nOne thing is for sure[.]\pThis Red twerp[.]\pHe has messed with us for the very\nlast time!
 
 #org @bossTalk18
-= Hear me!\pWe will relocate Team Rocket's\nheadquarters to the Viridian Gym!\pEvacuate this building\nimmediately.
+= Hear me!\pWe will relocate Team Rocket's\nheadquarters to the Viridian Gym!\pEvacuate this building\nimmediately.
+
 
 #org @bossTalk19
-= Admins, Executives[.]\pThat means the next time your\nRocket Pager beeps[.]\pYou will report to Virdian Gym,\npronto!
+= Admins, Executives[.]\pThat means the next time your\nRocket Pager beeps[.]\pYou will report to Virdian Gym,\npronto!
+
+
 
 #org @bossTalk20
-= When this child comes to seek his\nfinal Gym Badge[.]\pWe will be ready[.]\c\h08ó\nAll of us!\p[.]\pAnd by God[.]\c\h08ó\nWe will have our revenge!
+= When this child comes to seek his\nfinal Gym Badge[.]\pWe will be ready[.]\c\h08ï¿½\nAll of us!\p[.]\pAnd by God[.]\c\h08ï¿½\nWe will have our revenge!
+
 
 #org @bossTalk21
-= Do I make myself clear?\c\h08ó\nThen move, Team Rocket!
+= Do I make myself clear?\c\h08ï¿½\nThen move, Team Rocket!
 
 #org @cameraBack
 #raw STEP_U2

@@ -132,25 +132,25 @@ waitmovement 0x0
 return
 
 #org @talk
-= Bill: What are you talking about,\n"challengers only"?\pYou just let that psychopath of a\nProfessor in, didn't you?!\pThis is important, woman!
+= Bill: What are you talking about,\n"challengers only"?\pYou just let that psychopath of a\nProfessor in, didn't you?!\pThis is important!
 
 #org @talk2
-= It's no use, [player]..!\c\h08ó\nWe've got to get in somehow!\pLook, whatever dirty tricks you\nhave up your sleeve, or violent\lbrutes you can call up[.]\pIf there was ever a time we'd need\nthem, it's now!
+= It's no use, [player]..!\c\h08ï¿½\nWe've got to get in somehow!\pLook, whatever dirty tricks you\nhave up your sleeve, or violent\lbrutes you can call up[.]\pIf there was ever a time we'd need\nthem, it's now!
 
 #org @2talk1
-= Bill: Well[.]\c\h08ó\nThis is it, [player]!\pI don't know what's going to\nhappen when we go through those\ldoors behind me[.]\pBut I think it's safe to say you\nmight face some of the toughest\lbattles of your life.
+= Bill: Well[.]\c\h08ï¿½\nThis is it, [player]!\pI don't know what's going to\nhappen when we go through those\ldoors behind me[.]\pBut I think it's safe to say you\nmight face some of the toughest\lbattles of your life.
 
 #org @2talk2
-= So[.]\c\h08ó\nMake sure you're ready.\pIf you have preparations to make[.]\c\h08ó\nMake them now!
+= So[.]\c\h08ï¿½\nMake sure you're ready.\pIf you have preparations to make[.]\c\h08ï¿½\nMake them now!
 
 #org @2talk3
 = I would strongly urge you to bring\nMissingNo. along as well.\pYou're going to need it.
 
 #org @2talk4
-= With that out of the way[.]\c\h08ó\nAre you ready, [player]?
+= With that out of the way[.]\c\h08ï¿½\nAre you ready, [player]?
 
 #org @entryTalk
-= Here we go, then.\c\h08ó\n[.]I've said my prayers already.
+= Here we go, then.\c\h08ï¿½\n[.]I've said my prayers already.
 
 #org @noTalk
 = Then get on with it, quick!\nRed won't wait for us!
@@ -159,7 +159,7 @@ return
 = Bill: Well!\nAll set, [player]?
 
 #org @noMissingnoTalk
-= If you have preparations to make[.]\c\h08ó\nMake them now!\pI would strongly urge you to bring\nMissingNo. along as well.\pYou're going to need it.
+= If you have preparations to make[.]\c\h08ï¿½\nMake them now!\pI would strongly urge you to bring\nMissingNo. along as well.\pYou're going to need it.
 
 #org @entryWalk
 #raw STEP_U

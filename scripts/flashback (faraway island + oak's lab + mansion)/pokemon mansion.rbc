@@ -23,15 +23,15 @@ compare 0x402E 0x17
 if 0x1 goto @shigekiScript
 compare 0x402D 0xC
 if 0x1 goto @7thScript
-compare 0x402D 0xB // if this is sixth scene in Pokémon Mansion
+compare 0x402D 0xB // if this is sixth scene in Pokï¿½mon Mansion
 if 0x1 goto @6thScript
-checkflag 0x28F // if this is fifth scene in Pokémon Mansion
+checkflag 0x28F // if this is fifth scene in Pokï¿½mon Mansion
 if 0x1 goto @5thScript
-checkflag 0x28E // if this is fourth scene in Pokémon Mansion
+checkflag 0x28E // if this is fourth scene in Pokï¿½mon Mansion
 if 0x1 goto @4thScript
-compare 0x402D 0x9 // if this is third scene in Pokémon mansion
+compare 0x402D 0x9 // if this is third scene in Pokï¿½mon mansion
 if 0x1 goto @3rdScript 
-compare 0x402D 0x8 // if this is second scene in Pokémon mansion
+compare 0x402D 0x8 // if this is second scene in Pokï¿½mon mansion
 if 0x1 goto @2ndScript
 msgbox @bossTalk 0x6
 pause 0x20
@@ -537,7 +537,8 @@ end
 
 #org @bossTalk
 = Blaine, Fuji, Bill, and professor\nShigeki, Kanto's authority on\lgenetic engineering.
-
+
+
 #org @bossTalk2
 = Each member was a genius in his\nown right, and wasn't afraid to\lwork day and night for months for\la chance to save Kanto.
 
@@ -547,65 +548,91 @@ end
 #org @bossTalk4
 = Most test cases came out as\nformless, half-dead pieces of\lflesh that did not resemble Mew in\lany way.
 
-#org @bossTalk5
-= Though equally as erratic and\ndisgustingly shapeless as the\lothers[.]\pThis newborn monster had inherited\nMew's strength.
+#org @bossTalk5
+
+= Though equally as erratic and\ndisgustingly shapeless as the\lothers[.]\pThis newborn monster had inherited\nMew's strength.
+
 
 #org @bossTalk6
-= It broke free from its test tube\nand escaped the lab, killing\lseveral of the earlier specimen in\lits wake.
+= It broke free from its test tube\nand escaped the lab, killing\lseveral of the earlier specimen in\lits wake.
+
 
 #org @bossTalk7
-= This little incident became known\nas "The Catastrophe".\pAnd it scarred the scientists as\nwell as it did me.
+= This little incident became known\nas "The Catastrophe".\pAnd it scarred the scientists as\nwell as it did me.
+
 
 #org @bossTalk8
-= I began to lose faith in my\ninvestment, and I think Oak was\lstarting to feel the same way.
+= I began to lose faith in my\ninvestment, and I think Oak was\lstarting to feel the same way.
+
 
 #org @bossTalk10
-= Fuji suggested a way to contain\nMew's power within a solid,\lsentient body.
+= Fuji suggested a way to contain\nMew's power within a solid,\lsentient body.
+
+
 
 #org @bossTalk11
-= By creating a clone that would\ncombine Mew's DNA with that of a\lhuman.
+= By creating a clone that would\ncombine Mew's DNA with that of a\lhuman.
+
 
 #org @bossTalk12
-= Initial tests proved promising,\nand the scientists agreed to each\lcontribute a sample of their own\lDNA to be used for the Mew clone.
+= Initial tests proved promising,\nand the scientists agreed to each\lcontribute a sample of their own\lDNA to be used for the Mew clone.
 
-#org @bossTalk13
+
+#org @bossTalk13
+
 = Oak was the only one who refused\nto provide a DNA sample.\pHis skepticism for the project had\nby now risen to a peak.
 
 #org @bossTalk14
-= Sooner than anyone could\nanticipate, the team had produced\ltheir definite "Mewtwo".
+= Sooner than anyone could\nanticipate, the team had produced\ltheir definite "Mewtwo".
 
-#org @bossTalk15
-= A human-like, immensely powerful\npsychic Pokémon[.]\pPossessing the requisite cold,\nblood-thirsty mind and sapient\lintelligence.
+
+#org @bossTalk15
+
+= A human-like, immensely powerful\npsychic Pokï¿½mon[.]\pPossessing the requisite cold,\nblood-thirsty mind and sapient\lintelligence.
+
 
 #org @bossTalk16
-= Devoid of empathy, but\ndisturbingly intelligent, the\lnewborn clone could find no reason\lto fight for Kanto's cause.
+= Devoid of empathy, but\ndisturbingly intelligent, the\lnewborn clone could find no reason\lto fight for Kanto's cause.
+
 
 #org @bossTalk17
-= Why the war did not appeal to\nMewtwo we couldn't quite say[.]\pBut it refused to be used as a\nmilitary weapon.
+= Why the war did not appeal to\nMewtwo we couldn't quite say[.]\pBut it refused to be used as a\nmilitary weapon.
+
 
 #org @bossTalk18
-= And when we insisted[.]\c\h08ó\nIt rebelled.
+= And when we insisted[.]\c\h08ï¿½\nIt rebelled.
+
 
 #org @bossTalk19
-= With psychic powers we had no\nmeans to control, Mewtwo ruined\lthe lab and escaped the scientists\lwho had given it life.
+= With psychic powers we had no\nmeans to control, Mewtwo ruined\lthe lab and escaped the scientists\lwho had given it life.
+
 
 #org @shigekiTalk
-= "The Catastrophe"[.]\c\h08ó\nIt was an abomination[.]\pPowerful, yes[.]\c\h08ó\nBut erratic and uncontrollable.\pIt was as if[.]\c\h08ó its presence would\ndistort the fabric of reality[.]
+= "The Catastrophe"[.]\c\h08ï¿½\nIt was an abomination[.]\pPowerful, yes[.]\c\h08ï¿½\nBut erratic and uncontrollable.\pIt was as if[.]\c\h08ï¿½ its presence would\ndistort the fabric of reality[.]
+
 
 #org @shigekiTalk2
-= Like nothing we had ever seen[.]\c\h08ó\nIt was clearly too much to handle.
+= Like nothing we had ever seen[.]\c\h08ï¿½\nIt was clearly too much to handle.
+
 
 #org @shigekiTalk3
-= As you probably know already[.]\pIt made its escape in a violent\nfrenzy.
+= As you probably know already[.]\pIt made its escape in a violent\nfrenzy.
 
-#org @shigekiTalk4
-= The monster didn't get far before\nI was able to immobilize it and\lput it to sleep.
+
+
+#org @shigekiTalk4
+
+= The monster didn't get far before\nI was able to immobilize it and\lput it to sleep.
+
+
 
 #org @shigekiTalk5
-= I told the others I had everything\nunder control.\pWhen they asked me where the\ncreature lay dormant[.]\pI said I didn't know.
+= I told the others I had everything\nunder control.\pWhen they asked me where the\ncreature lay dormant[.]\pI said I didn't know.
+
 
 #org @shigekiTalk6
-= But the truth was[.]\c\h08ó\nI knew it all too well.
+= But the truth was[.]\c\h08ï¿½\nI knew it all too well.
+
 
 #org @approachDitto
 #raw STEP_D

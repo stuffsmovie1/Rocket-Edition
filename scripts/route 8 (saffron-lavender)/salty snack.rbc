@@ -11,7 +11,7 @@ msgbox @sign MSG_SIGN
 end
 
 #org @sign
-= A faint nutty aroma emanates from\nthe crate.
+= A faint aroma emanates from\nthe crate.
 
 #org @nothing
 = There's nothing here[.]

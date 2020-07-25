@@ -88,16 +88,16 @@ waitmovement 0x0
 return
 
 #org @talk
-= Hello, [player]!\nGood lord, it's been a while[.]\p[.]\c\h08ó\nHey, don't you recognize me?\pStupid old dingbat!\c\h08ó [.]It's me!\c\h08ó\nRonnie!\pMan, I'll tell you!\pIt's been tough since Team Rocket[.]\c\h08ó\nBeing a solo gangster and all.\pI've robbed a couple of Youngsters\nand schoolgirls and things, but\lit's just not the same anymore[.]
+= Hello, [player]!\nGood lord, it's been a while[.]\p[.]\c\h08ï¿½\nHey, don't you recognize me?\pStupid old dingbat!\c\h08ï¿½ [.]It's me!\c\h08ï¿½\nRonnie!\pMan, I'll tell you!\pIt's been tough since Team Rocket[.]\c\h08ï¿½\nBeing a solo gangster and all.\pI've robbed a couple of Youngsters\nand schoolgirls and things, but\lit's just not the same anymore[.]
 
 #org @talk2
-= Well, but look at you, Mr. Posh!\pI suppose the hair gel comes with\nthe promotion, does it?\pI always thought you were a little\ncamp, but this takes the cake!\pHahaha[.]\c\h08ó\nAnyway[.]
+= Well, but look at you, Mr. Posh!\pI suppose the hair gel comes with\nthe promotion, does it?\pI always thought you were a little\ncamp, but this takes the cake!\pHahaha[.]\c\h08ï¿½\nAnyway[.]
 
 #org @talk3
-= These are mad times, [player]!\c\h08ó\nHave you heard the news?\pLance is done for! Defeated!\c\h08ó\nHahaha[.] and guess what?\pSomeone's just gone in to challenge\nthe new Elite Four already!\pOh, oh!\c\h08ó But here's the best part!\c\h08ó\nGuess who the new Champion is..?\pHere, just wait, it's gonna be on\nTV any second now[.]
+= These are mad times, [player]!\c\h08ï¿½\nHave you heard the news?\pLance is done for! Defeated!\c\h08ï¿½\nHahaha[.] and guess what?\pSomeone's just gone in to challenge\nthe new Elite Four already!\pOh, oh!\c\h08ï¿½ But here's the best part!\c\h08ï¿½\nGuess who the new Champion is..?\pHere, just wait, it's gonna be on\nTV any second now[.]
 
 #org @TVtalk
-= Announcer: It's a historic day for\nKanto-Johto, ladies and gentlemen!\pChampion Lance has been defeated\nin Pokémon League battle by a\lyoung challenger from Pallet Town!\pWe spoke to the region's remarkable\nnew adolescent Champion shortly\lafter his victory.
+= Announcer: It's a historic day for\nKanto-Johto, ladies and gentlemen!\pChampion Lance has been defeated\nin Pokï¿½mon League battle by a\lyoung challenger from Pallet Town!\pWe spoke to the region's remarkable\nnew adolescent Champion shortly\lafter his victory.
 
 #org @facePlayer
 #raw 0x4A
@@ -150,7 +150,7 @@ end
 = Ronnie: Who was that nerdy guy,\n[player]? Friend of yours?
 
 #org @postOakTalk
-= Ronnie: Who would've thought that\nback at Mt. Moon, eh?\p[.]\pHmm..?\c\h08ó\nProf. Oak was here just now?\pHey, calm down, [player]!\pWhy should we care about that old\nfart anymore..?
+= Ronnie: Who would've thought that\nback at Mt. Moon, eh?\p[.]\pHmm..?\c\h08ï¿½\nProf. Oak was here just now?\pHey, calm down, [player]!\pWhy should we care about that old\nfart anymore..?
 
 #org @postKnockoutTalk
 = Ronnie: We've come a long way,\nhaven't we, [player]?\pYou go handle what you need to now.\nI've got your back.
@@ -243,12 +243,12 @@ pause 0x20
 msgbox @postBlockTalk8 0x6
 lockall
 pause 0x25
-sound 0x36 // throw Poké ball sound
+sound 0x36 // throw Pokï¿½ ball sound
 call @moveBall
 showsprite _POKE_BALL
 checksound
 pause 0x7
-sound 0xF // Poké ball open
+sound 0xF // Pokï¿½ ball open
 fadescreen 0x2
 hidesprite _POKE_BALL
 showsprite _RATICATE
@@ -344,28 +344,28 @@ return
 = Ronnie: Hey, what's all this\ncommotion, [player]?\pAre you guys trying to break in\nto the Elite Four? That's rad!
 
 #org @postBlockTalk2
-= [.]\pWhat's that, you need help?\p[.]\c\h08ó\nWhat?\c\h08ó You mean[.]\c\h08ó my help..?
+= [.]\pWhat's that, you need help?\p[.]\c\h08ï¿½\nWhat?\c\h08ï¿½ You mean[.]\c\h08ï¿½ my help..?
 
 #org @postBlockTalk3
-= Damn[.]\c\h08ó\n[.]I never thought you'd say that.
+= Damn[.]\c\h08ï¿½\n[.]I never thought you'd say that.
 
 #org @postBlockTalk4
 = You know, [player], I[.]\pI know I haven't been the greatest\nbuddy in the world.\pI keep getting things wrong and\nscrewing stuff up.\pI know I'm not as smart as you\nand all[.]
 
 #org @postBlockTalk5
-= I just[.]\c\h08ó wanted to be bad.\pA real badass pimp gangster, right?\c\h08ó\nThe whole nine yards.\p[.]\pI didn't want to wait around.\pDidn't want anyone to think I was\na sissy. I couldn't take it.
+= I just[.]\c\h08ï¿½ wanted to be bad.\pA real badass pimp gangster, right?\c\h08ï¿½\nThe whole nine yards.\p[.]\pI didn't want to wait around.\pDidn't want anyone to think I was\na wimp. I couldn't take it.
 
 #org @postBlockTalk6
-= [.]\c\h08ó\nI'm real sorry.\pI'm going to set things straight and\nbe a proper thief like you one day.\pI'll do things by the plan.\c\h08ó\nNo more cutting corners.
+= [.]\c\h08ï¿½\nI'm real sorry.\pI'm going to set things straight and\nbe a proper thief like you one day.\pI'll do things by the plan.\c\h08ï¿½\nNo more cutting corners.
 
 #org @postBlockTalk7
-= So look!\c\h08ó\nJust this once[.]\pLeave it to me, [player]!\nFor old time's sake.
+= So look!\c\h08ï¿½\nJust this once[.]\pLeave it to me, [player]!\nFor old time's sake.
 
 #org @postBlockTalk8
 = Raticate!
 
 #org @postBlockTalk9
-= On alert, you lazy rat!\c\h08ó\n[.]we've got work to do.
+= On alert, you lazy rat!\c\h08ï¿½\n[.]we've got work to do.
 
 #org @stepU
 #raw 0x1C

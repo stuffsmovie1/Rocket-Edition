@@ -246,7 +246,8 @@ end
 #raw 0xFE
 
 #org @bosstalk1
-= Giovanni: [player], I presume?\pYeah, just come on up here by the\ndesk.
+= Giovanni: [player], I presume?\pYeah, just come on up here by the\ndesk.
+
 
 #org @playermove
 #raw STEP_U
@@ -258,7 +259,9 @@ end
 #raw 0xFE
 
 #org @bosstalk2
-= Now, then.\nLet's not waste any time.
+= Now, then.\nLet's not waste any time.
+
+
 
 #org @move1
 #raw STEP_D
@@ -266,7 +269,8 @@ end
 #raw 0xFE
 
 #org @bosstalk3
-= I heard from Petrel that the\nfossil excavation mission at Mt.\lMoon was wrecked by the workings\lof two little kid Trainers.
+= I heard from Petrel that the\nfossil excavation mission at Mt.\lMoon was wrecked by the workings\lof two little kid Trainers.
+
 
 #org @pauseleft
 #raw 0x1C
@@ -280,16 +284,20 @@ end
 #raw 0xFE
 
 #org @bosstalk4
-= Now, between the fact that Petrel\nis the weakest of my sorry bunch\lof Rocket admins and that the\lmission team consisted of complete\land utter rookie grunts[.]
+= Now, between the fact that Petrel\nis the weakest of my sorry bunch\lof Rocket admins and that the\lmission team consisted of complete\land utter rookie grunts[.]
+
 
 #org @bosstalk5
-= It still boggles my mind to the\ncore how in the deepest depths of\lGiratina's hell a pair of pre-teen\ltwats could beat up an entire\lsquad of full-grown men and run\laway with the spoils right in\lfront of their GOD DAMN EYES!
+= It still boggles my mind to the\ncore how in the deepest depths of\lGiratina's hell a pair of pre-teen\lidiots could beat up an entire\lsquad of adults and run\laway with the spoils right in\lfront of their GOD DAMN EYES!
 
 #org @bosstalk6
-= I mean, for crying out loud,\nAriana: little kids!\pHow freaking absurd is this?
+= I mean, for crying out loud,\nAriana: little kids!\pHow freaking absurd is this?
+
 
 #org @aritalk
-= Ariana: It's very absurd,\nGiovanni.
+= Ariana: It's very absurd,\nGiovanni.
+
+
 
 #org @wanderLeft
 #raw STEP_L
@@ -298,10 +306,12 @@ end
 #raw 0xFE
 
 #org @bosstalk7
-= Giovanni: [.]\c\h08ó\n(Sigh[.])\c\h08ó
+= Giovanni: [.]\c\h08ï¿½\n(Sigh[.])\c\h08ï¿½
+
 
 #org @bosstalk8
-= Now, having finished berating\nPetrel for his incompetence, he\ltells me that you were the grunt\lstanding guard by the fossils.\pHe said you fought the stronger of\nthe twerps, and that you maybe\leven fared better against him than\lany of the other asshats on your\lteam.
+= Now, having finished berating\nPetrel for his incompetence, he\ltells me that you were the grunt\lstanding guard by the fossils.\pHe said you fought the stronger of\nthe twerps, and that you maybe\leven fared better against him than\lany of the other asshats on your\lteam.
+
 
 #org @wanderRight
 #raw STEP_R
@@ -309,14 +319,16 @@ end
 #raw 0x1C
 #raw 0xFE
 
-#org @bosstalk9
-= This is why I've called you in\nhere.\pI want you to tell me everything\nyou know about this kid--\pEvery little detail, every little\nminutia you happened to glean from\lyour battle with him.\pI want to have this twerp\nthoroughly profiled so we can see\lto it that he'll never dare mess\lwith Team Rocket again!
+#org @bosstalk9
+
+= This is why I've called you in\nhere.\pI want you to tell me everything\nyou know about this kid--\pEvery little detail, every little\nminutia you happened to glean from\lyour battle with him.\pI want to have this twerp\nthoroughly profiled so we can see\lto it that he'll never dare mess\lwith Team Rocket again!
+
 
 #org @bosstalk10
 = Let's start with the basics[.]
 
 #org @bosstalk11
-= Giovanni: [.]\c\h08ó\nI see[.]\c\h08ó
+= Giovanni: [.]\c\h08ï¿½\nI see[.]\c\h08ï¿½
 
 #org @moveUp
 #raw STEP_U
@@ -325,7 +337,9 @@ end
 #raw 0xFE
 
 #org @bosstalk12
-= (Red, eh?)\p[.]\c\h08ó\n(What a ridiculous name[.])
+= (Red, eh?)\p[.]\c\h08ï¿½\n(What a ridiculous name[.])
+
+
 
 #org @moveDownLeft
 #raw FACE_D
@@ -335,8 +349,10 @@ end
 #raw 0x1C
 #raw 0xFE
 
-#org @bosstalk13
-= (Charmeleon[.] and the other one\nrunning around with a Wartortle[.])\p(Why, those are warfare Pokémon\nfor Chrissakes-- what kids could\lhave access to those?)\p(And officially licensed Pokémon\nTrainers, no less[.])\p(Who could these kids' parents\nbe..?)
+#org @bosstalk13
+
+= (Charmeleon[.] and the other one\nrunning around with a Wartortle[.])\p(Why, those are warfare Pokï¿½mon\nfor Chrissakes-- what kids could\lhave access to those?)\p(And officially licensed Pokï¿½mon\nTrainers, no less[.])\p(Who could these kids' parents\nbe..?)
+
 
 #org @returnToCenter
 #raw FACE_R
@@ -346,11 +362,14 @@ end
 #raw 0x1C
 #raw 0xFE
 
-#org @bosstalk14
-= I have a bad feeling about these\ntwo--\c\h08ó this Red character\lespecially[.]\pWe'll have to keep our eyes open\nif he comes our way again, do you\lhear me?
+#org @bosstalk14
+
+= I have a bad feeling about these\ntwo--\c\h08ï¿½ this Red character\lespecially[.]\pWe'll have to keep our eyes open\nif he comes our way again, do you\lhear me?
+
 
 #org @bosstalk15
-= (Whoever these rich kids are-- I\nswear[.])\p(They're a dangerous breed[.])
+= (Whoever these rich kids are-- I\nswear[.])\p(They're a dangerous breed[.])
+
 
 #org @guardComes
 #raw STEP_U
@@ -361,10 +380,12 @@ end
 #raw 0xFE
 
 #org @guardTalk
-= Boss, sir. Gym Leader Blaine is\nhere to speak with you.
+= Boss, sir. Gym Leader Blaine is\nhere to speak with you.
+
 
 #org @bosstalk16
-= Giovanni: Send him in.
+= Giovanni: Send him in.
+
 
 #org @guardLeave
 #raw STEP_D
@@ -375,7 +396,8 @@ end
 #raw 0xFE
 
 #org @bosstalk17
-= You may stay if you want, [player].\c\h08ó\nIn fact--\c\h08ó I'd like you to.
+= You may stay if you want, [player].\c\h08ï¿½\nIn fact--\c\h08ï¿½ I'd like you to.
+
 
 #org @blaiApproach1
 #raw STEP_U
@@ -384,8 +406,10 @@ end
 #raw STEP_U
 #raw 0xFE
 
-#org @bosstalk18
-= Giovanni: There you are, Blaine.\pRight here by the desk, if you'd\nplease. Move over, [player].
+#org @bosstalk18
+
+= Giovanni: There you are, Blaine.\pRight here by the desk, if you'd\nplease. Move over, [player].
+
 
 #org @blaiApproach2
 #raw STEP_R
@@ -405,32 +429,46 @@ end
 #org @bosstalk19
 = Giovanni: I have my suspicions,\nbut I want to hear it from your\lown little chicken mouth, all the\lsame.
 
-#org @blaitalk2
-= Blaine: (Sigh[.])\c\h08ó\pI can't keep making any more\nPorygon for you.\pI'm really sorry about it,\nGiovanni, but I can't.
+#org @blaitalk2
+
+= Blaine: (Sigh[.])\c\h08ï¿½\pI can't keep making any more\nPorygon for you.\pI'm really sorry about it,\nGiovanni, but I can't.
+
 
 #org @bosstalk20
 = Giovanni: [.]\nYou're a filthy coward, Blaine.
 
-#org @blaitalk3
-= Blaine: Listen, now!\pFuji knows all you guys have been\ndoing up in the Pokémon Tower, and\lhe's gone into a crazy fit over\lit!\pJust yesterday he sent an angry\nemail to all his old colleagues at\lthe Pokémon Lab, warning them\lthat, I quote:
+#org @blaitalk3
+
+= Blaine: Listen, now!\pFuji knows all you guys have been\ndoing up in the Pokï¿½mon Tower, and\lhe's gone into a crazy fit over\lit!\pJust yesterday he sent an angry\nemail to all his old colleagues at\lthe Pokï¿½mon Lab, warning them\lthat, I quote:
+
 
 #org @blaitalk4
-= "Team Rocket is up to no good!\pThey've got spies all over, and\nthey're ruthless!\pBe on the lookout for any\nsuspicious activity!"
+= "Team Rocket is up to no good!\pThey've got spies all over, and\nthey're ruthless!\pBe on the lookout for any\nsuspicious activity!"
 
-#org @blaitalk5
-= Blaine: You know as well as me,\nGiovanni, that the source code for\lPorygon is copyrighted by Silph\lCo.\pIf I'm caught making them in the\nLab, it's all over for me!
+
+#org @blaitalk5
+
+= Blaine: You know as well as me,\nGiovanni, that the source code for\lPorygon is copyrighted by Silph\lCo.\pIf I'm caught making them in the\nLab, it's all over for me!
+
 
 #org @blaitalk6
-= You know I'll always support what\nyou guys are doing here[.]\pBut I'm not gonna risk my position\nas a Gym Leader for Team Rocket,\lall right?\pI'll have to lay low for a while.
+= You know I'll always support what\nyou guys are doing here[.]\pBut I'm not gonna risk my position\nas a Gym Leader for Team Rocket,\lall right?\pI'll have to lay low for a while.
 
-#org @bosstalk21
-= Giovanni: God damn you, Blaine[.]\pDo you even realize what a major\nsource of revenue Porygon is for\lour Game Corner?\pPlayers just won't want to gamble\nas much if they don't have the\lprospect of winning one dangled in\lfront of them.
 
-#org @bosstalk22
-= Christ.\pAnd where else do you suggest we\nget our Porygon supply-- at the\lPoké Mart?\pThere's only a handful of\nscientists in Kanto who'd be\lwilling or even able to make the\lthings, let alone help us\ldistribute them illegally.
+
+#org @bosstalk21
+
+= Giovanni: God damn you, Blaine[.]\pDo you even realize what a major\nsource of revenue Porygon is for\lour Game Corner?\pPlayers just won't want to gamble\nas much if they don't have the\lprospect of winning one dangled in\lfront of them.
+
+
+#org @bosstalk22
+
+= Christ.\pAnd where else do you suggest we\nget our Porygon supply-- at the\lPokï¿½ Mart?\pThere's only a handful of\nscientists in Kanto who'd be\lwilling or even able to make the\lthings, let alone help us\ldistribute them illegally.
+
 
 #org @blaitalk7
-= Blaine: Maybe[.]\c\h08ó\nLook, it's been over a decade[.]\pI know you're not keen on the\nidea, but how about we see if\lmaybe Professor Oak would be\lwilling to hel--
+= Blaine: Maybe[.]\c\h08ï¿½\nLook, it's been over a decade[.]\pI know you're not keen on the\nidea, but how about we see if\lmaybe Professor Oak would be\lwilling to hel--
+
 
 #org @NO
 = Giovanni: NO!
@@ -439,43 +477,55 @@ end
 = I will never deal with that filthy\ntraitor. Never! Do you hear me?
 
 #org @bosstalk23Extra
-= I want nothing to do with that\nspineless dimwit of a professor,\land you should know better than to\lsuggest it!
+= I want nothing to do with that\nspineless dimwit of a professor,\land you should know better than to\lsuggest it!
+
 
 #org @blaitalk8
 = Blaine: All right.\nForget it.
 
-#org @blaitalk9
-= Blaine: (sigh[.])\c\h08ó\nWell, then[.]\pI suggest you talk to Bill about\nit.\pHe's an unpredictable kid, but\nhe's smart, and I'll bet you\lanything he nicked himself a copy\lof the Porygon from me or Fuji\lback in the day.\pHe should be more than apt for the\njob.
+#org @blaitalk9
 
-#org @bosstalk24
-= Giovanni: Hmph.\pWell, I don't suppose we have much\nof a choice.\pBill has done a couple of smaller\ntech-related jobs for us in the\lpast, but he's a fickle kid, and I\ldon't like him.\pPlus, he always demands ridiculous\ncompensation for everything he\ldoes, the rascal.
+= Blaine: (sigh[.])\c\h08ï¿½\nWell, then[.]\pI suggest you talk to Bill about\nit.\pHe's an unpredictable kid, but\nhe's smart, and I'll bet you\lanything he nicked himself a copy\lof the Porygon from me or Fuji\lback in the day.\pHe should be more than apt for the\njob.
+
+
+#org @bosstalk24
+
+= Giovanni: Hmph.\pWell, I don't suppose we have much\nof a choice.\pBill has done a couple of smaller\ntech-related jobs for us in the\lpast, but he's a fickle kid, and I\ldon't like him.\pPlus, he always demands ridiculous\ncompensation for everything he\ldoes, the rascal.
+
 
 #org @bosstalk25
-= But[.] seeing as he's our only hope\nright now[.]\pI suppose he'll do.
+= But[.] seeing as he's our only hope\nright now[.]\pI suppose he'll do.
+
 
 #org @ellipses
-= Giovanni: [.]\c\h08ó
+= Giovanni: [.]\c\h08ï¿½
 
-#org @bosstalk26
-= I'm letting you off the hook for\nnow, Blaine-- for old time's sake.\pBut if you hinder Team Rocket's\noperations again[.]\pWell[.]\c\h08ó you're not going to get a\nfavorable outcome.\pIs that clear?
+#org @bosstalk26
+
+= I'm letting you off the hook for\nnow, Blaine-- for old time's sake.\pBut if you hinder Team Rocket's\noperations again[.]\pWell[.]\c\h08ï¿½ you're not going to get a\nfavorable outcome.\pIs that clear?
+
 
 #org @bosstalkExtra
 = I expect you to be back making\nPorygon for us again once this\lwhole Fuji business blows over.
 
 #org @blaitalk10
-= Blaine: Yes, Giovanni.\c\h08ó\nThank you.
+= Blaine: Yes, Giovanni.\c\h08ï¿½\nThank you.
 
 #org @bosstalk27
 = Giovanni: [player], over here.\nI have a new mission for you.
 
-#org @bosstalk28
-= Here's what I want you to do now,\nlisten carefully:\pYou're going to go to Bill's\nhouse, just north of Cerulean.\pYou're going to offer him a job,\non behalf of Team Rocket, as a\ltemporary manufacturer of Porygon.\pIf he says no, tell him we'll make\nhim an offer he can't refuse.\pTell him he can name any price or\nservice he likes[.] within reason.
+#org @bosstalk28
+
+= Here's what I want you to do now,\nlisten carefully:\pYou're going to go to Bill's\nhouse, just north of Cerulean.\pYou're going to offer him a job,\non behalf of Team Rocket, as a\ltemporary manufacturer of Porygon.\pIf he says no, tell him we'll make\nhim an offer he can't refuse.\pTell him he can name any price or\nservice he likes[.] within reason.
+
 
 #org @bosstalk29
-= Another squad of grunts should be\nheaded for Cerulean on another\lmission right about now as well.\pI suggest you rendezvous with them\nin the secret Rocket base we've\lstationed just south of the city.\pThe Rocket admin there should be\nable to give you a few rare items\lto tempt Bill with as well.
+= Another squad of grunts should be\nheaded for Cerulean on another\lmission right about now as well.\pI suggest you rendezvous with them\nin the secret Rocket base we've\lstationed just south of the city.\pThe Rocket admin there should be\nable to give you a few rare items\lto tempt Bill with as well.
+
 
 #org @bosstalk30
-= Is that clear?\c\h08ó\nWell, on with you, then!\pI'm counting on you, [player]!
+= Is that clear?\c\h08ï¿½\nWell, on with you, then!\pI'm counting on you, [player]!
+
 
 #org @cowardwalk
 #raw STEP_L

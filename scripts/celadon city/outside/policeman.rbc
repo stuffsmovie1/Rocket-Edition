@@ -1,7 +1,7 @@
 #dynamic 0x800000
 #include stdmoves.rbh
 #define POLICEMAN 0x13
-// each stolen Pokémon adds $3000 to bounty
+// each stolen Pokï¿½mon adds $3000 to bounty
 
 #org @main
 lock
@@ -365,16 +365,20 @@ end
 #raw 0xFE
 
 #org @1stTalk
-= Well, well, well!\pIf it isn't one of you Rockets\nI've heard so much about!\pI am a special officer, sent by\nLance to bring you to justice!\p[.]\pWha--\c\h08ó [.]no, I won't be arresting\nyou; those aren't my orders.\pI am here to "facilitate your\nrehabilitation"!\pI have a shiny new TM19 Giga Drain\nright here, that can be yours if\lyou keep your criminal record\lclean long enough!
-
+= Well, well, well!\pIf it isn't one of you Rockets\nI've heard so much about!\pI am a special officer, sent by\nLance to bring you to justice!\p[.]\pWha--\c\h08ï¿½ [.]no, I won't be arresting\nyou; those aren't my orders.\pI am here to "facilitate your\nrehabilitation"!\pI have a shiny new TM19 Giga Drain\nright here, that can be yours if\lyou keep your criminal record\lclean long enough!
+
+
+
 #org @1stTalk2
-= Now, then[.]\nWhat's your name, scoundrel?\p[.]\c\h08ó\n[player]?\pWell, let me check my registry\nhere for a second[.]
+= Now, then[.]\nWhat's your name, scoundrel?\p[.]\c\h08ï¿½\n[player]?\pWell, let me check my registry\nhere for a second[.]
+
 
 #org @preItemTalk
-= My, my, what have we here?\nA Rocket bandit in the flesh!\pI'm to give you this TM19 Giga\nDrain if you keep your record\lclean for long enough, so keep it\lcool!\p[player], is it?\c\h08ó\nWell, let me see here[.]
+= My, my, what have we here?\nA Rocket bandit in the flesh!\pI'm to give you this TM19 Giga\nDrain if you keep your record\lclean for long enough, so keep it\lcool!\p[player], is it?\c\h08ï¿½\nWell, let me see here[.]
+
 
 #org @postItemTalk
-= My, my, what have we here?\nA Rocket bandit in the flesh!\p[player], is it?\c\h08ó\nWell, let me see here[.]
+= My, my, what have we here?\nA Rocket bandit in the flesh!\p[player], is it?\c\h08ï¿½\nWell, let me see here[.]
 
 #org @exclamation
 #raw 0x62
@@ -385,88 +389,115 @@ end
 #raw 0xFE
 
 #org @vBadTalk
-= My goodness!\c\h08ó Y-you're one of the\nmost infamous criminals in Kanto!\pThe price on your head is a\nwhooping [$][buffer1],000!\pGrr[.] what could you possibly want\nwith me, you filthy outlaw?!\pIt will take a lot more than a\ncouple of Pokémon trades to atone\lfor your sins, I'll tell you!
+= My goodness!\c\h08ï¿½ Y-you're one of the\nmost infamous criminals in Kanto!\pThe price on your head is a\nwhooping [$][buffer1],000!\pGrr[.] what could you possibly want\nwith me, you filthy outlaw?!\pIt will take a lot more than a\ncouple of Pokï¿½mon trades to atone\lfor your sins, I'll tell you!
+
 
 #org @vBadText
-= [blue_fr][.]well?
+= [blue_fr][.]well?
+
 
 #org @pBadTalk
-= Oh, my!\nYou're quite the villain!\pThe bounty on your head stands at\n[$][buffer1],000!\pThat's nothing to joke about, son.\pUnless you plan to spend the rest\nof your days in jail, I suggest\lyou change your ways soon, before\lit's all too late!
+= Oh, my!\nYou're quite the villain!\pThe bounty on your head stands at\n[$][buffer1],000!\pThat's nothing to joke about, son.\pUnless you plan to spend the rest\nof your days in jail, I suggest\lyou change your ways soon, before\lit's all too late!
+
 
 #org @pBadText
-= [blue_fr]How can I help you t[blue_fr]urn things\n[blue_fr]around?
+= [blue_fr]How can I help you t[blue_fr]urn things\n[blue_fr]around?
+
 
 #org @mBadTalk
-= Hm[.] Well, I've seen worse in my\ndays, but you're on a dangerous\lpath, Rocket!\pThe bounty on your head stands at\n[$][buffer1],000.\pCome back into the light while you\nstill can!
+= Hm[.] Well, I've seen worse in my\ndays, but you're on a dangerous\lpath, Rocket!\pThe bounty on your head stands at\n[$][buffer1],000.\pCome back into the light while you\nstill can!
+
 
 #org @mBadText
 = [blue_fr]What can I help you [blue_fr]with?
 
 #org @nBadTalk
-= Well, you're not so bad, are you?\pThe bounty on your head is a mere\n[$][buffer1],000.\pOh, a few slip-ups here and there\nhappen to the best of us, right?\pI'm glad you came to me to set\nthings straight again[.]\c\h08ó right?
+= Well, you're not so bad, are you?\pThe bounty on your head is a mere\n[$][buffer1],000.\pOh, a few slip-ups here and there\nhappen to the best of us, right?\pI'm glad you came to me to set\nthings straight again[.]\c\h08ï¿½ right?
+
+
 
 #org @nBadText
-= [blue_fr]What can I do for yo[blue_fr]u, son?
+= [blue_fr]What can I do for yo[blue_fr]u, son?
+
 
 #org @iTalk
 = Oh, wow! What's this? There's no\nbounty on your head at all!\pThat's what I like to see.\pThe moral road is a narrow one,\nbut you walk it all the same!
 
 #org @itemTalk
-= I like you, son.\pHere is a token of appreciation\nfrom the government for embracing\lyour new life as a law-abiding\lcitizen!
+= I like you, son.\pHere is a token of appreciation\nfrom the government for embracing\lyour new life as a law-abiding\lcitizen!
+
 
 #org @notYetItem
-= Keep up this behavior, and this TM\nwill be all yours before long.
+= Keep up this behavior, and this TM\nwill be all yours before long.
+
+
 
 #org @noRoomTalk
 = Why, but you've no space left for\nit, do you? Make some room!
 
 #org @itemMsg
-= [player] received TM19 from the\npoliceman!
+= [player] received TM19 from the\npoliceman!
+
+
 
 #org @putAway
-= [player] put TM19 in the TM Case.
+= [player] put TM19 in the TM Case.
 
-#org @itemAlreadyGot
-= Go seek out the officers in the\nother cities, son.\pIf you keep up your good behavior,\nthey'll reward you as I have!
+
+
+#org @itemAlreadyGot
+
+= Go seek out the officers in the\nother cities, son.\pIf you keep up your good behavior,\nthey'll reward you as I have!
+
 
 #org @1pokeMsg
-= But[.] surely you can't turn in\nyour only Pokémon?\pThat would cause all sorts of\nweird question marks and humbug.\pI'm not having it!
+= But[.] surely you can't turn in\nyour only Pokï¿½mon?\pThat would cause all sorts of\nweird question marks and humbug.\pI'm not having it!
+
 
 #org @handInTalk
-= Fair enough!\pYou hand in one of your stolen\nPokémon to me, and we agree to\llower the bounty on your head in\lproportion to the Pokémon's level.
+= Fair enough!\pYou hand in one of your stolen\nPokï¿½mon to me, and we agree to\llower the bounty on your head in\lproportion to the Pokï¿½mon's level.
 
 #org @handInTalk1.5
-= The bounty on you is [$][buffer1],000.\nWhich Pokémon will you hand in?
+= The bounty on you is [$][buffer1],000.\nWhich Pokï¿½mon will you hand in?
+
+
 
 #org @handInTalk2
 = Fine. I'll lower your bounty by\n[$][buffer1],000 for this [buffer2].
 
 #org @pkmnDeleted
-= [player] turned [buffer2] in to the\npoliceman.
+= [player] turned [buffer2] in to the\npoliceman.
+
 
 #org @postDeletion
-= You made the right choice, Rocket.\nCongratulations.\pYour bounty has now been lowered\nto [$][buffer1],000.\pKeep it up and you'll be a free\nman in no time at all!
+= You made the right choice, Rocket.\nCongratulations.\pYour bounty has now been lowered\nto [$][buffer1],000.\pKeep it up and you'll be a free\nman in no time at all!
+
 
 #org @noMoreBounty
-= Well, I'll be!\nYou did the right thing, Rocket.\pYour bounty has now been\ncompletely wiped.\pIt touches me to see that I could\nhelp you become a free man again!
+= Well, I'll be!\nYou did the right thing, Rocket.\pYour bounty has now been\ncompletely wiped.\pIt touches me to see that I could\nhelp you become a free man again!
+
 
 #org @bribeTalk
-= What's that?\c\h08ó\nMy god! The idea!\pI am unwavering in my adherence to\nmy moral principles, I assure you!\p[.]\c\h08ó\n(Shh[.] not so loud, now.)
+= What's that?\c\h08ï¿½\nMy god! The idea!\pI am unwavering in my adherence to\nmy moral principles, I assure you!\p[.]\c\h08ï¿½\n(Shh[.] not so loud, now.)
 
 #org @howMuch
-= (How much are we talking?)\n(The bounty is [blue_fr]at [$][buffer1],000[blue_fr].)
+= (How much are we talking?)\n(The bounty is [blue_fr]at [$][buffer1],000[blue_fr].)
+
 
 #org @noMoneyTalk
-= Gah!\p(Come back when you actually have\nthe money, and we'll talk!)
+= Gah!\p(Come back when you actually have\nthe money, and we'll talk!)
+
 
 #org @postBribeTalk
-= Mmmm!\pWell, in times like these[.]\nwhat can you do..?\p(Your bounty has been lowered to\n[$][buffer1],000, all right?)\p(But remember, son-- I sure as\nheck didn't do it!)
+= Mmmm!\pWell, in times like these[.]\nwhat can you do..?\p(Your bounty has been lowered to\n[$][buffer1],000, all right?)\p(But remember, son-- I sure as\nheck didn't do it!)
+
 
 #org @postBribeTalk2
-= Mmmm!\pWell, in times like these[.]\nwhat can you do..?\p(The bounty on your head has now\nbeen completely wiped.)\p(But I know nothing about it,\nyou hear me?)
+= Mmmm!\pWell, in times like these[.]\nwhat can you do..?\p(The bounty on your head has now\nbeen completely wiped.)\p(But I know nothing about it,\nyou hear me?)
+
 
 #org @goodBye
 = No? Well, have it your way.\nGood day, Rocket.
 
 #org @missingnoTalk
-= What in Arceus's name is that\nPokémon..?!\pI don't know where you got that\nfrom, but I'll want nothing to do\lwith it!\pHand in a normal Pokémon, won't\nyou?!
+= What in Arceus's name is that\nPokï¿½mon..?!\pI don't know where you got that\nfrom, but I'll want nothing to do\lwith it!\pHand in a normal Pokï¿½mon, won't\nyou?!

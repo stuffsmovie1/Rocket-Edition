@@ -61,7 +61,7 @@ pause 0x10
 goto @battle
 
 #org @battle
-setvar 0x8004 0x69 // disables Poké Balls
+setvar 0x8004 0x69 // disables Pokï¿½ Balls
 setvar 0x8006 0x69 // disables runaway
 // TODO: set proper level
 setwildbattle 0x96 0x46 0x0
@@ -87,7 +87,7 @@ pause 0x20
 playsong 0x121 0x0
 msgbox @talk12 0x6
 pause 0x20
-setvar 0x8004 0x0 // re-enable Poké Balls
+setvar 0x8004 0x0 // re-enable Pokï¿½ Balls
 setvar 0x8006 0x0 // re-enable runaway
 setvar 0x402E 0x13
 setvar 0x4016 0x9 // temporarily activate flashback maps again
@@ -118,40 +118,49 @@ end
 = Mewtwo: So you've come[.]
 
 #org @talk2
-= I was waiting for you[.]\c\h08ó\n[player].
+= I was waiting for you[.]\c\h08ï¿½\n[player].
 
 #org @talk3
 = The scientists who sent you\nhere[.]\pWho thought my psychic powers\nweakened in the years passed[.]
 
 #org @talk4
-= They are wildly mistaken.\pI'm stronger, sharper, deadlier[.]\c\h08ó\nThan I ever was.
+= They are wildly mistaken.\pI'm stronger, sharper, deadlier[.]\c\h08ï¿½\nThan I ever was.
+
 
 #org @talk5
-= You've nothing to threaten me\nwith.\pEven if the Master Ball you wield\ncould work against me[.]\pI could cut off the arm you'd\nthrow it with before the first\lcontraction of your muscles.
+= You've nothing to threaten me\nwith.\pEven if the Master Ball you wield\ncould work against me[.]\pI could cut off the arm you'd\nthrow it with before the first\lcontraction of your muscles.
+
 
 #org @talk6
-= [.]\pBut that would give me little\npleasure.\pInstead[.]\pGive me an engaging, forceful[.]\c\h08ó\nfair[.]\c\h08ó Pokémon battle.\p[.]\pAnd I will tell you what you came\nhere to find out.
+= [.]\pBut that would give me little\npleasure.\pInstead[.]\pGive me an engaging[.]\c\h08ï¿½\nfair[.]\c\h08ï¿½ Pokï¿½mon battle.\p[.]\pAnd I will tell you what you came\nhere to find out.
+
 
 #org @talk7
-= Oh, how I long for a challenging\nbattle!\pLike an infant craving its\nmother's milk, [player][.]
+= Oh, how I long for a challenging\nbattle, [player][.]!
+
 
 #org @talk8
-= These impulses I was given[.]\pThey make a decade an eternity[.]\pWith no worthy enemies to put my\ndormant powers to bear against.
+= These impulses I was given[.]\pThey make a decade an eternity[.]\pWith no worthy enemies to put my\ndormant powers to bear against.
+
 
 #org @challengeText
-= On your guard, Trainer!\nGive me your all!
+= On your guard, Trainer!\nGive me your all!
+
 
 #org @runawayText
-= Mewtwo: No, no, no, [player]!\nThat sort of trickery won't do!\pAgain!\c\h0B[Ke]À
+= Mewtwo: No, no, no, [player]!\nThat sort of trickery won't do!\pAgain!\c\h0B[Ke]ï¿½
 
 #org @talk9
-= Mewtwo: Hahahahaha[.]\c\h08ó\nHahaha!\pYes[.]\c\h08ó\nYes, that's it.
+= Mewtwo: Hahahahaha[.]\c\h08ï¿½\nHahaha!\pYes[.]\c\h08ï¿½\nYes, that's it.
+
 
 #org @talk10
-= Ah!\c\h08ó\nVery well, [player].\pYou've humored me better than I\nthought you capable.\pI'll tell you what you want to\nknow.
+= Ah!\c\h08ï¿½\nVery well, [player].\pYou've humored me better than I\nthought you capable.\pI'll tell you what you want to\nknow.
+
 
 #org @talk11
-= The Pokémon my creators seek[.]\pIs the one they call\n"The Catastrophe".\pAnd Shigeki indeed knows where\nit's hiding.
+= The Pokï¿½mon my creators seek[.]\pIs the one they call\n"The Catastrophe".\pAnd Shigeki indeed knows where\nit's hiding.
 
 #org @talk12
-= [.]and where is Shigeki hiding?\p[.]\pIn plainer sight than any of his\nformer colleagues would believe.
+= [.]and where is Shigeki hiding?\p[.]\pIn plainer sight than any of his\nformer colleagues would believe.
+

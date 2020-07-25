@@ -7,7 +7,7 @@ msgbox @postBattle 0x6
 end
 
 #org @challenge
-= My mentor once lived here.\pNow he moved to Lavender to care\nfor orphaned Pokémon.\lTalk about a waste!
+= My mentor once lived here.\pNow he moved to Lavender to care\nfor orphaned Pokï¿½mon.\lTalk about a waste!
 
 #org @postBattle
-= So, you're stuck?\nTry jumping off over there!\pEither that, or jump off a bridge.\pFor thugs like you[.] I'm\nindifferent to which you choose.
+= So, you're stuck?\nTry jumping off over there!\pEither that, or get lost.\pFor thugs like you[.] I'm\nindifferent to which you choose.

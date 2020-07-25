@@ -59,7 +59,7 @@ end
 #raw 0xFE
 
 #org @talk
-= Yo!\nChamp in the making!\pThe Leader, Misty, is a pro who\nuses Water-type Pokémo--
+= Yo!\nChamp in the making!\pThe Leader, Misty, is a pro who\nuses Water-type Pokï¿½mo--
 
 #org @exclamation
 #raw 0x62
@@ -70,16 +70,17 @@ end
 #raw 0xFE
 
 #org @talk2
-= [.]hey!\c\h08ó\nWhat's that you're wearing?\pCould I see your Trainer Card,\nplease?\p[.]
+= [.]hey!\c\h08ï¿½\nWhat's that you're wearing?\pCould I see your Trainer Card,\nplease?\p[.]
 
 #org @allowEntryTalk
-= Oh[.]\c\h08ó\n(Wow, I wasn't expecting that[.])\p(It looks so real[.]\c\h08ó Even has\nthe hologram and everything[.])\p[.]\pEr-hem! Excuse me, Mr. Smith.\nI don't know what came over me.\pCome right in!\pSabrina is eagerly awaiting your\nchallenge.
+= Oh[.]\c\h08ï¿½\n(Wow, I wasn't expecting that[.])\p(It looks so real[.]\c\h08ï¿½ Even has\nthe hologram and everything[.])\p[.]\pEr-hem! Excuse me, Mr. Smith.\nI don't know what came over me.\pCome right in!\pSabrina is eagerly awaiting your\nchallenge.
+
 
 #org @talk2No
-= Hmm?\c\h08ó No?\c\h08ó\nThat's just as I thought!\pThe nerve[.]\c\h08ó This Gym is not for\nbums and petty thugs, you hear?\pGet out!\pAnd don't come back unless it's\nwith an official Training license!
+= Hmm?\c\h08ï¿½ No?\c\h08ï¿½\nThat's just as I thought!\pThe nerve[.]\c\h08ï¿½ This Gym is not for\npetty thugs, you hear?\pGet out!\pAnd don't come back unless it's\nwith an official Training license!
 
 #org @talk3
-= This Gym is not for bums and petty\nthugs, you hear?\pGet out!\pAnd don't come back unless it's\nwith an official Training license!
+= This Gym is not for petty\nthugs, you hear?\pGet out!\pAnd don't come back unless it's\nwith an official Training license!
 
 #org @playerMove
 #raw STEP_L

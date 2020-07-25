@@ -284,64 +284,82 @@ release
 end
 
 #org @robberyTalk
-= I-I can't believe this is\nhappening!\pMy manager trained me for this\nsituation, you know!\pAll right, Bob[.]\c\h08ó\nDo as they taught you[.]\pGotta quell that fear[.]\c\h08ó\nReach into the emergency drawer[.]\pGet those earmarked Poké Balls[.]\c\h08ó\nAnd[.]\c\h08ó and[.]\p[.]\pWahh!\c\h08ó\nI'm scared!
+= I-I can't believe this is\nhappening!\pMy manager trained me for this\nsituation, you know!\pAll right, Bob[.]\c\h08ï¿½\nDo as they taught you[.]\pGotta quell that fear[.]\c\h08ï¿½\nReach into the emergency drawer[.]\pGet those earmarked Pokï¿½ Balls[.]\c\h08ï¿½\nAnd[.]\c\h08ï¿½ and[.]\p[.]\pWahh!\c\h08ï¿½\nI'm scared!
 
 #org @defeatTalk
-= I wasn't prepared for this!
+= I wasn't prepared for this!
+
 
 #org @leaderTalk
-= Well, you got a lot of guts,\nhaven't you, pal?\pLet's teach this guy a lesson,\nRaticate!
+= Well, you got a lot of guts,\nhaven't you, pal?\pLet's teach this guy a lesson,\nRaticate!
+
 
 #org @robberyTalk2
-= Aaaah!\nP-please don't hurt me!\pLook, we don't have much in\nstorage, but I can get you some of\lthe premium items we keep for the\lstrongest Trainers[.]
+= Aaaah!\nP-please don't hurt me!\pLook, we don't have much in\nstorage, but I can get you some of\lthe premium items we keep for the\lstrongest Trainers[.]
+
 
 #org @leaderTalk2
 = Well, hurry it the hell up, then!\pAnd don't forget to empty that\ncash register too!
 
 #org @leaderTalk3
-= Hey, [player][.]\pSince you handled that little\nfunnyman over there, I'll let you\lhave your share first.\pTake any two items you want, man.\nWe'll sort out the rest.
+= Hey, [player][.]\pSince you handled that little\nfunnyman over there, I'll let you\lhave your share first.\pTake any two items you want, man.\nWe'll sort out the rest.
+
 
 #org @robberyTalk3
-= All right[.]\pTh-this is all the premiums we\nhave, okay?
+= All right[.]\pTh-this is all the premiums we\nhave, okay?
+
 
 #org @steal1
 = Steal which Item first?
 
 #org @steal2
-= Steal which Item next?
+= Steal which Item next?
+
+
 
 #org @noRoomTalk
-= Er[.] Y-you've no room for that,\nyou know!\pYou'll have to toss something\naway before you can take it..!
+= Er[.] Y-you've no room for that,\nyou know!\pYou'll have to toss something\naway before you can take it..!
+
 
 #org @thunderStoneText
-= [player] stole a Thunderstone\nfrom the Poké Mart!
+= [player] stole a Thunderstone\nfrom the Pokï¿½ Mart!
 
 #org @waterStoneText
-= [player] stole a Water Stone from\nthe Poké Mart!
+= [player] stole a Water Stone from\nthe Pokï¿½ Mart!
+
 
 #org @fireStoneText
-= [player] stole a Fire Stone from\nthe Poké Mart!
+= [player] stole a Fire Stone from\nthe Pokï¿½ Mart!
+
 
 #org @ultraBallText
-= [player] stole 20 Ultra Balls\nfrom the Poké Mart!
+= [player] stole 20 Ultra Balls\nfrom the Pokï¿½ Mart!
+
 
 #org @fullRestoreText
-= [player] stole 15 Full Restores\nfrom the Poké Mart!
+= [player] stole 15 Full Restores\nfrom the Pokï¿½ Mart!
+
 
 #org @cashText
-= [player] stole [$]10,000 from\nthe Poké Mart!
+= [player] stole [$]10,000 from\nthe Pokï¿½ Mart!
+
 
 #org @leaderTalk4
-= Joey!\pGet your fat ass over here and\nhelp me with the rest!
+= Joey!\pGet your fat ass over here and\nhelp me with the rest!
+
+
 
 #org @leaderTalk5
-= Well, then!\pPleasure doing business with you,\nlittle sissy-face.\pYou make sure to write your\nmanager a report so he knows just\lhow much your emergency training\lhelped you today, won't you?
+= Well, then!\pPleasure doing business with you,\nlittle silly-face.\pYou make sure to write your\nmanager a report so he knows just\lhow much your emergency training\lhelped you today, won't you?
+
 
 #org @leaderTalk6
-= [.]\c\h08ó\nAdios!
+= [.]\c\h08ï¿½\nAdios!
 
 #org @postRobberyTalk
-= And here I always thought rob-\nberies were the kind of thing that\lonly happened to other people[.]
+= And here I always thought rob-\nberies were the kind of thing that\lonly happened to other people[.]
+
+
 
 #org @raticateMove
 #raw STEP_D2

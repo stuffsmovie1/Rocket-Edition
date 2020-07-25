@@ -61,7 +61,9 @@ end
 #raw 0xFE
 
 #org @talk1
-= Ronnie: There you are!
+= Ronnie: There you are!
+
+
 
 #org @step
 #raw 0x1A
@@ -69,10 +71,13 @@ end
 #raw 0xFE
 
 #org @talk2
-= Okay, [player], I'm going to teach\nyou all there is to know about\lstealing people's Pokémon!\l...\lWhat's that?\lHow am I an expert in Pokémon\lcrime all of a sudden? Okay,\llook-- yeah, I know I just joined\lTeam Rocket, but I'll have you\lknow I came prepared! Immorality\lis my passion, man!
+= Okay, [player], I'm going to teach\nyou all there is to know about\lstealing people's Pokï¿½mon!\l...\lWhat's that?\lHow am I an expert in Pokï¿½mon\lcrime all of a sudden? Okay,\llook-- yeah, I know I just joined\lTeam Rocket, but I'll have you\lknow I came prepared! Immorality\lis my passion, man!
+
+
 
 #org @talk3
-= Come with me!
+= Come with me!
+
 
 #org @walk1
 #raw 0x1C
@@ -98,7 +103,8 @@ end
 #raw 0x13
 #raw 0x13
 #raw 0x13
-#raw 0x13
+#raw 0x13
+
 #raw 0x13
 #raw 0x11
 #raw 0x11
@@ -111,7 +117,7 @@ end
 #raw 0xFE
 
 #org @talk4
-= Er-hem! "Pokémon Robbery for\nDummies: Chapter one.\lThe first step to any successful\lPokémon heist is to pick a\lsuitable target."
+= Er-hem! "Pokï¿½mon Robbery for\nDummies: Chapter one.\lThe first step to any successful\lPokï¿½mon heist is to pick a\lsuitable target."
 
 #org @step2
 #raw 0x1C
@@ -221,13 +227,17 @@ end
 #raw 0xFE
 
 #org @talk6
-= [player], [player]! Innocent-looking\nschoolgirl six o'clock! Man, this\lis our big chance! Okay, okay,\lokay-- focus, now. Let me see what\lthe experts say next...
+= [player], [player]! Schoolgirl six o'clock! Man, this\lis our big chance! Okay, okay,\lokay-- focus, now. Let me see what\lthe experts say next...
 
 #org @talk7
-= "Step two: Engage your chosen\ntarget in a Pokémon battle, and\lproceed to defeat them."
+= "Step two: Engage your chosen\ntarget in a Pokï¿½mon battle, and\lproceed to defeat them."
+
 
 #org @ellipses
-= \c\h08ó.\c\h08ó.\c\h08ó.
+
+= \c\h08ï¿½.\c\h08ï¿½.\c\h08ï¿½.
+
+
 
 #org @talk8
 = Well, what are you waiting for? Go\nbeat the crap out of the little\lgirl, now; you heard the experts.\l...\lWhat? Who? Me?\lNaw, c'mon, man; that's-- I mean,\lthat'd be far too easy. Besides,\lyou're the newbie here, aren't\lyou? Yeah, um... I-I'll be right\lbehind you, buddy.
